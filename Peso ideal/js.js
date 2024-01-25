@@ -13,11 +13,11 @@ function validar() {
         res.innerHTML = `<p>Seu IMC é <strong>${pesoIdeal}</strong></p>`
         if (pesoIdeal < 18.5) {
             res.innerHTML += `<p>Sua classificação: <strong>Magreza</strong></p>`
-        } else if (pesoIdeal >= 18.5 && pesoIdeal < 24.9){
+        } else if (pesoIdeal >= 18.5 && pesoIdeal < 24.99){
             res.innerHTML += `<p>Sua classificação: <strong>Normal</strong></p>`
-        } else if (pesoIdeal >= 25.0 && pesoIdeal < 29.9){
+        } else if (pesoIdeal >= 25.0 && pesoIdeal < 29.99){
             res.innerHTML += `<p>Sua classificação: <strong>Sobrepeso</strong></p>`
-        } else if (pesoIdeal >= 30 && pesoIdeal < 39.9){
+        } else if (pesoIdeal >= 30 && pesoIdeal < 39.99){
             res.innerHTML += `<p>Sua classificação: <strong>Obesidade</strong></p>`
         } else if (pesoIdeal >= 40){
             res.innerHTML = `<p>Sua classificação: <strong>Obesidade grave</strong></p>`

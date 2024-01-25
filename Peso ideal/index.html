@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Par ou Ímpar</title>
+    <title>Peso ideal</title>
 </head>
 <body>
     <div class="questao">
-        <p>Faça um programa que calcule se o número digitado é ímpar ou par.</p>
+        <p>Construa um programa que calcule o IMC de uma pessoa</p>
     </div>
     <div class="caixa">
-        <p>Digite um número: </p>
-        <input type="number" name="valor" id="valor">
+        <p>Digite sua altura:
+            <input type="number" name="altura" id="altura" placeholder="Ex - 1.80"> </p>
+        <br>
+        <p class="pp">Seu peso: <br>
+            <input type="number" name="peso" id="peso" placeholder="Em Kg">
+        </p>
         <input id="button" type="button" value="Validar" onclick="validar()">
         <div id="resposta"></div>
     </div>
